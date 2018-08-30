@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Please enter student number"
+        >
+    </EditText>
+    <EditText
+        android:id="@+id/et_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Please enter password">
+    </EditText>
+    <EditText
+        android:id="@+id/et_repass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Please repeated enter password">
+    </EditText>
+    <Button
+        android:id="@+id/signin"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="sign in"
+        android:gravity="center"
+        android:onClick="signin">
+    </Button>
+    <Button
+        android:id="@+id/goback"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="go back"
+        android:gravity="center"
+        android:onClick="goback">
+    </Button>
+
+
+</LinearLayout>
